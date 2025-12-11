@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Add fade-in class to elements you want to animate
-    document.querySelectorAll('.post-card, .section-title').forEach((el) => {
+    document.querySelectorAll('.post-card, .section-title, .post-section').forEach((el) => {
         el.classList.add('fade-in');
         observer.observe(el);
     });
