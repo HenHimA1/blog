@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topics | Event Horizon</title>
+    <meta name="description"
+        content="Browse Event Horizon articles by topic: Physics, Engineering, Investigation, and more.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://event-horizon-blog.com/topics.html">
+    <meta property="og:title" content="Topics | Event Horizon">
+    <meta property="og:description"
+        content="Browse Event Horizon articles by topic: Physics, Engineering, Investigation, and more.">
+    <meta property="og:image" content="https://event-horizon-blog.com/assets/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://event-horizon-blog.com/topics.html">
+    <meta property="twitter:title" content="Topics | Event Horizon">
+    <meta property="twitter:description"
+        content="Browse Event Horizon articles by topic: Physics, Engineering, Investigation, and more.">
+    <meta property="twitter:image" content="https://event-horizon-blog.com/assets/og-image.jpg">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-grid"></div>
+    <div class="overlay"></div>
+
+    <header class="glass-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">EVENT HORIZON</a>
+            <nav>
+                <a href="index.html#latests">Latest</a>
+                <a href="topics.html" style="color: var(--accent-color);">Topics</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="post-container">
+        <div class="container">
+            <h1 class="hero-title" style="font-size: 3rem; text-align: center; margin-bottom: 60px;">TRANSMISSION <span
+                    class="gradient-text">LOGS</span></h1>
+
+            <div class="topics-grid">
+
+                <!-- Investigation -->
+                <section class="topic-section fade-in">
+                    <h2 class="section-title">Investigation</h2>
+                    <article class="post-card">
+                        <div class="card-content">
+                            <h3 class="card-title">The Teflon Cover-Up: How DuPont Poisoned the World</h3>
+                            <a href="posts/dupont-pfas-scandal.html" class="read-more">Read &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Manufactured Science: The Monsanto Papers</h3>
+                            <a href="posts/monsanto-glyphosate-controversy.html" class="read-more">Read &rarr;</a>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- Energy & Engineering -->
+                <section class="topic-section fade-in">
+                    <h2 class="section-title">Energy & Engineering</h2>
+                    <article class="post-card">
+                        <div class="card-content">
+                            <h3 class="card-title">The Perfect Battery Material Is Dangerous</h3>
+                            <a href="posts/the-perfect-battery-material.html" class="read-more">Read &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Why Jet Engines Don't Melt</h3>
+                            <a href="posts/why-jet-engines-dont-melt.html" class="read-more">Read &rarr;</a>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- Physics -->
+                <section class="topic-section fade-in">
+                    <h2 class="section-title">Physics</h2>
+                    <article class="post-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Something Weird Happens When E=-mc²</h3>
+                            <a href="posts/something-weird-happens-when-e-minus-mc2.html" class="read-more">Read
+                                &rarr;</a>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- General Science -->
+                <section class="topic-section fade-in">
+                    <h2 class="section-title">General Science</h2>
+                    <article class="post-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Weekly Roundup: Engines, Quakes & Ethics</h3>
+                            <a href="posts/weekly-science-roundup.html" class="read-more">Read &rarr;</a>
+                        </div>
+                    </article>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="container footer">
+        <p>&copy; 2025 Event Horizon. Science curated.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <style>
+        .topics-grid {
+            display: grid;
+            gap: 4rem;
+        }
+
+        .topic-section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 2rem;
+        }
+
+        .topic-section .section-title {
+            margin-bottom: 1.5rem;
+            color: var(--accent-color);
+            border-bottom: 2px solid rgba(0, 243, 255, 0.2);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+    </style>
+</body>
+
+</html>
